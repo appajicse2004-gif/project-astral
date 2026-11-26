@@ -1,0 +1,79 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Generated outputs
+outputs/
+results/# Generated reinforcement-learning checkpoints
+data/checkpoints/
+data/checkpoint/
+data/**/checkpoints/
+data/**/checkpoint/
+
+# Training-generated model and rollout artifacts
+*.pkl
+*.npy
+*.npz
+*.tensorboard
+runs/
+tensorboard/
+wandb/
+
+# Model checkpoints
+data/models/
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# Generated datasets
+data/expert/
+data/expert_varied/
+
+# Diagnostic archives
+astral_diagnostics.zip
+
+# Generated images and videos
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/# Accidental nested duplicate project folder
+/project_astral/

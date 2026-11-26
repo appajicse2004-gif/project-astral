@@ -1,0 +1,16 @@
+# Project Astral - dependencies.
+# Phase 1 (physics + manual flight) needs only pygame.
+# Version ranges are NOT yet verified against each other (no network in the
+# authoring sandbox). Re-verify with `pip install -r requirements.txt` at Phase 3.
+numpy>=1.26
+pygame>=2.5
+# --- needed from Phase 2/3 onward ---
+gymnasium>=0.29,<1.1
+torch>=2.2
+stable-baselines3>=2.3,<2.5
+# --- needed from Phase 4/5 onward ---
+matplotlib>=3.8
+pandas>=2.1
+tensorboard>=2.15
+# --- testing ---
+pytest>=7.4
